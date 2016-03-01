@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<lang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>Titre</Title>
+  <Options>Options</Options>
+  <Administration>Admnistration</Administration>
+  <Help>Aide</Help>
+  <Close>Fermer</Close>
+  <Back>Retour</Back>
+  <Snack>Snack</Snack>
+  <Order>Acheter</Order>
+  <Name>Nom</Name>
+  <User>Utilisateur</User>
+  <Admin>Administrateur</Admin>
+  <FirstName>Prénom</FirstName>
+  <Balance>Solde</Balance>
+  <Points>Point(s)</Points>
+  <ID>ID</ID>
+  <Nickname>Pseudo</Nickname>
+  <Password>Mot de passe</Password>
+  <Hash>Sel</Hash>
+  <AllowNeg>Autoriser le négatif</AllowNeg>
+  <PhoneNumber>Numéro de téléphone</PhoneNumber>
+  <Email>Adresse email</Email>
+  <Status>Statut</Status>
+  <Blacklist>Liste noire</Blacklist>
+  <Reason>Raison</Reason>
+  <TypeProduct>Type de produit</TypeProduct>
+  <Drinks>Boissons</Drinks>
+  <Foods>Nourriture</Foods>
+  <Payment>Payement</Payment>
+  <PayBalance>Payer avec solde</PayBalance>
+  <PayPoints>Payer avec points</PayPoints>
+  <PayCash>Payer en liquide</PayCash>
+  <Fridge>Frigo</Fridge>
+  <Units>Unités</Units>
+  <Product>Produit</Product>
+  <Newsletter>Newsletter</Newsletter>
+  <ToShop>A acheter</ToShop>
+  <Shopped>Acheté</Shopped>
+  <Pancakes>Crêpes</Pancakes>
+  <FirstConnection>Première Connexion</FirstConnection>
+  <PasswordAgain>Retapez votre mot de passe</PasswordAgain>
+  <PasswordCondition>Le mot de passe doit avoir entre 8 et 16 charactères</PasswordCondition>
+  <NameOfOrganisation>Nom de l'association</NameOfOrganisation>
+  <LanguageToUse>Langage</LanguageToUse>
+  <Confirm>Valider</Confirm>
+  <Setting>Paramètres</Setting>
+  <Shop>Boutique</Shop>
+  <Home>Accueil</Home>
+  <Help1></Help1>
+  <Help2></Help2>
+  <Purchase>Acheter</Purchase>
+  <Price>Prix</Price>
+  <Credit>Crédit</Credit>
+  <Debit>Débit</Debit>
+  <Label>Label</Label>
+  <PriceBuy>Prix à l'achat</PriceBuy>
+  <PriceSell>Prix à la vente</PriceSell>
+  <PricePoint>Prix en point</PricePoint>
+  <ValuePoint>Points gagnés</ValuePoint>
+  <Stock>Stock</Stock>
+  <Money>Argent</Money>
+  <InsertTransaction>Enregistrer transaction</InsertTransaction>
+  <RecordSum>Enregistrer total actuel</RecordSum>
+</lang>

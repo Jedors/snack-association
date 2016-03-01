@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<lang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Title>Title</Title>
+  <Options>Options</Options>
+  <Administration>Admnistration</Administration>
+  <Help>Help</Help>
+  <Close>Close</Close>
+  <Back>Back</Back>
+  <Snack>Snack</Snack>
+  <Order>Order</Order>
+  <Name>Name</Name>
+  <User>User</User>
+  <Admin>Administrator</Admin>
+  <FirstName>First Name</FirstName>
+  <Balance>Balance</Balance>
+  <Points>Point(s)</Points>
+  <ID>ID</ID>
+  <Nickname>Nickname</Nickname>
+  <Password>Password</Password>
+  <Hash>Hash</Hash>
+  <AllowNeg>Allow the negative</AllowNeg>
+  <PhoneNumber>Phone number</PhoneNumber>
+  <Email>Email adress</Email>
+  <Status>Status</Status>
+  <Blacklist>Blacklist</Blacklist>
+  <Reason>Reason</Reason>
+  <TypeProduct>Type of product</TypeProduct>
+  <Drinks>Drinks</Drinks>
+  <Foods>Food</Foods>
+  <Payment>Payment</Payment>
+  <PayBalance>Pay with balance</PayBalance>
+  <PayPoints>Pay with points</PayPoints>
+  <PayCash>Pay with cash</PayCash>
+  <Fridge>Fridge</Fridge>
+  <Units>Units</Units>
+  <Product>Product</Product>
+  <Newsletter>Newsletter</Newsletter>
+  <ToShop>To Shop</ToShop>
+  <Shopped>Shopped</Shopped>
+  <Pancakes>Pancakes</Pancakes>
+  <FirstConnection>First Connection</FirstConnection>
+  <PasswordAgain>Write again your password</PasswordAgain>
+  <PasswordCondition>Password must have between 8 and 16 characters</PasswordCondition>
+  <NameOfOrganisation>Name of the organisation</NameOfOrganisation>
+  <LanguageToUse>Language</LanguageToUse>
+  <Confirm>Confirm</Confirm>
+  <Setting>Setting</Setting>
+  <Shop>Shop</Shop>
+  <Home>Home</Home>
+  <Help1></Help1>
+  <Help2></Help2>  
+</lang>

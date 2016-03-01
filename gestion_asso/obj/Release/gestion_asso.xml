@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+gestion_asso
+</name>
+</assembly>
+<members>
+<member name="M:gestion_asso.configfile.LoadLanguage">
+ <summary>
+ Load the language
+ </summary>
+</member>
+<member name="M:gestion_asso.configfile.hashGen(System.String,System.String)">
+ <summary>
+ Encrypt with MD5 method a password with salt
+ </summary>
+ <param name="sourceText">string to be encrypted</param>
+ <param name="salt">his salt</param>
+ <returns>Encrypted string</returns>
+</member>
+<member name="M:gestion_asso.configfile.hashCompare(System.String,System.String,System.String)">
+ <summary>
+ Compare unencrypted string with encrypted one to check if equal
+ </summary>
+ <param name="firstHash">Encrypted string</param>
+ <param name="compareText">Unencrypted string</param>
+ <param name="salt">salt used to get the first string</param>
+ <returns>True if equal</returns>
+</member>
+<member name="M:gestion_asso.configfile.SaveConfig">
+ <summary>
+ Save the config into file
+ </summary>
+ <returns>State of the function (true if worked)</returns>
+</member>
+<member name="M:gestion_asso.configfile.MakeFileStructure(System.String,System.String,System.String,System.String)">
+ <summary>
+ Make a structure of the ini file to be saved
+ </summary>
+ <param name="AssoName">Name of the association which use the app</param>
+ <param name="LangPath">Path of the language file which is used</param>
+ <param name="VersionApp">Version of the application</param>
+ <param name="RootPassword">Encrypted password of the default account</param>
+ <returns>String Array feed with each config line</returns>
+</member>
+<member name="M:gestion_asso.configfile.GetSettingFromKey(System.String)">
+ <summary>
+ Get special setting from file with key
+ </summary>
+ <param name="Key">Key of the setting to get</param>
+ <returns>Setting if found</returns>
+</member>
+<member name="M:gestion_asso.configfile.LoadConfigFromFile">
+ <summary>
+ Load the configuration from Ini File
+ </summary>
+ <returns>State on the function (true if worked)</returns>
+</member>
+<member name="M:gestion_asso.database.createDatabaseSchema">
+ <summary>
+ Create the table of the database
+ </summary>
+</member>
+<member name="M:gestion_asso.database.doQuery(System.String)">
+ <summary>
+ Execute query with result (Like a SELECT)
+ </summary>
+ <param name="request">Request to be executed</param>
+ <returns>Result of the query in SQLiteDataReader</returns>
+</member>
+<member name="M:gestion_asso.database.doNonQuery(System.String)">
+ <summary>
+ Execute sql command with no result (Like UPDATE, INSERT INTO, CREATE, ...)
+ </summary>
+ <param name="request">The request to execute</param>
+ <returns>If it worked true</returns>
+</member>
+<member name="M:gestion_asso.database.dbConnect">
+ <summary>
+ Connect to the database
+ </summary>
+ <returns>If worked true</returns>
+</member>
+<member name="M:gestion_asso.database.dbQuit">
+ <summary>
+ Close the connection with the database
+ </summary>
+ <returns>If it worked true</returns>
+</member>
+<member name="T:gestion_asso.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:gestion_asso.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:gestion_asso.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+</members>
+</doc>
